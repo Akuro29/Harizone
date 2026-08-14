@@ -6,3 +6,42 @@
   list-style: none;
   font-family: "Plus Jakarta Sans", sans-serif;
 }
+
+.container{
+     max-width: 1200px;
+     margin: 0 auto;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.links ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 25px 0px;
+
+
+    li a{
+        color: #000000;
+    }
+}
+
+.register_right{
+    display: flex;
+    gap: 15px;
+
+}
+.register_right a:nth-child(2){
+    background-color: #E9E3FF;
+}
