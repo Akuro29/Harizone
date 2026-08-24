@@ -233,3 +233,39 @@ nav {
     font-size: 20px;
   }
 }
+
+/* main section 3 */
+
+.workflow{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 300px;
+}
+
+.workflow_left{
+   width: 540px;
+
+
+
+
+  h1{
+    color: #1b2559;
+  }
+  p{
+    color: #68769f;
+    font-size: 17px;
+    margin-top: 10px;
+  }
+}
+.money{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.money_div{
+  width: 200px;
+}
