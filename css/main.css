@@ -288,17 +288,17 @@ nav {
   margin-bottom: 74px;
   margin-top: 200px;
 
-  h1{
+  h1 {
     color: #1b2559;
   }
-  p{
+  p {
     color: #68769f;
     margin-top: 10px;
     line-height: 28px;
   }
 }
 
-.testimonial_block{
+.testimonial_block {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -306,29 +306,98 @@ nav {
   margin-bottom: 200px;
 }
 
-
-.testimonial_card{
-  background-color: #F6F8FD;
+.testimonial_card {
+  background-color: #f6f8fd;
   padding: 20px;
   border-radius: 10px;
   text-align: center;
-  
 
-  h3{
+  h3 {
     color: #1b2559;
     font-weight: 700px;
     margin-bottom: 20px;
-  
   }
 
-  h4{
+  h4 {
     color: #1b2559;
     margin-top: 10px;
     margin-bottom: 5px;
   }
-  p{
+  p {
     color: #68769f;
     font-style: 11px;
   }
-  
+}
+
+/* main section 5 */
+
+.clients {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 200px;
+}
+
+.clients {
+  h1 {
+    color: #1b2559;
+  }
+}
+
+.client_right {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.client_right a:nth-child(1) {
+  border: 1.5px solid #1b2559;
+  padding: 14px 30px;
+  border-radius: 10px;
+  color: #1b2559;
+  font-weight: 700px;
+}
+
+.client_right a:nth-child(2) {
+  background-color: #4318ff;
+  padding: 14px 30px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700px;
+}
+/* footer */
+
+.footer {
+  text-align: center;
+}
+
+.footer .logo {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.footer_links ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin: 20px 0px;
+
+  li a {
+    color: #1b2559;
+  }
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 15px;
+
+  i {
+    font-style: 20px;
+    color: #1b2559;
+  }
 }
